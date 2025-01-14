@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HIDDEN Updater</title>
-    <link rel="canonical" href="https://hidden-devices.github.io/updater" />
-    <link rel="manifest" href="/updater/manifest.webmanifest"/>
+    <link rel="canonical" href="https://updater.hidden.su/" />
+    <link rel="manifest" href="/manifest.webmanifest"/>
 </head>
 <body>
     <h1>Hello world!</h1>
     <script>
         if (navigator.serviceWorker) {
             navigator.serviceWorker.register(
-                '/updater/sw.js',
-                { scope: '/updater' }
+                '/sw.js',
+                { scope: '/' }
             )
         }
     </script>

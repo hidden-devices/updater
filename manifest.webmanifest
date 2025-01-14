@@ -2,14 +2,14 @@
     "name": "HIDDEN Devices updater",
     "short_name": "HIDDEN updater",
     "description": "HIDDEN Devices updater",
-    "scope": "/updater",
-    "start_url": "/updater",
+    "scope": "/",
+    "start_url": "/",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "display": "standalone",
     "icons": [
         {
-            "src": "/updater/img/icon.png",
+            "src": "//img/icon.png",
             "type": "image/png",
             "sizes": "512x512"
         }
